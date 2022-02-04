@@ -1,20 +1,20 @@
-function pizzaOven(crustType, sauceType, cheeses, toppings) {
+function pizzaOven(crustType, sauceType, cheeses, ha) {
     let pizza = {};
     pizza.crustType = crustType;
     pizza.sauceType = sauceType;
     pizza.cheeses = cheeses;
-    pizza.toppings = toppings;
+    pizza.ha = ha;
     return pizza;
 }
 let homeMade = pizzaOven("Loaded bacon cheese", "light bbq", "mozzorella", "ham, bacon, chicken");
 console.log(homeMade);
 
-function pizzaOven(crustType, sauceType, cheeses, toppings) {
+function pizzaOven(crunchytype, saycytype, cheesytyoe, otpingtype) {
     let pizza = {};
-    pizza.crustType = crustType;
-    pizza.sauceType = sauceType;
-    pizza.cheeses = cheeses;
-    pizza.toppings = toppings;
+    pizza.crunchytype = crunchytype;
+    pizza.saycytype = saycytype;
+    pizza.cheesytyoe = cheesytyoe;
+    pizza.otpingtype = otpingtype;
     return pizza;
 }
 let homeMade = pizzaOven("deep dish", "traditional", ["mozzarella"], ["pepperoni", "sausage"]);
@@ -60,10 +60,10 @@ function randomPizza() {
     let toppings = ["ham", "chicken", "pepper"];
     let crust = ["deep dish", "stuffed crust"];
     let pizza = {};
-    /*  pizza.crustType = crustType;
+      pizza.crustType = crustType;
      pizza.sauceType = sauceType;
      pizza.cheeses = cheeses;
-     pizza.toppings = toppings; */
+     pizza.toppings = toppings; 
     let randomValue = cheese[math.floor(math.random() * cheese.length)];
     console.log(randomValue);
     return pizza;
